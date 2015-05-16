@@ -96,7 +96,8 @@ int Jogo(){
         gotoxy(20,20);
         printf("Vez do Player %d",prox);
         gotoxy(20,21);
-        printf("Faca sua jogada: ");
+        printf("Faca sua jogada:      ");
+        gotoxy(37,21);
         scanf("%d",&jogada);
         jogada = jogada % 10;
         if(!jogadas[jogada] && jogada != 0){
